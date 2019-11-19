@@ -1,0 +1,4 @@
+rootProject.name = 'patent'
+include 'patent1'
+findProject(':patent1')?.name = 'patent'
+
